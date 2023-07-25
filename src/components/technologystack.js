@@ -92,6 +92,13 @@ function Technologystack() {
       imgurl:
         "https://cdn.iconscout.com/icon/free/png-256/mongodb-5-1175140.png",
     },
+    {
+      id: 14,
+      name: "Oracle",
+      category: "backend",
+      imgurl:
+        "https://1000logos.net/wp-content/uploads/2021/04/Oracle-logo.png",
+    },
   ];
   const [activeCategory, setActiveCategory] = useState("all");
 
