@@ -165,6 +165,14 @@ function Contact() {
                     </a>
                     <a
                       className="btn mt-1 me-2 glow-eff"
+                      style={{ backgroundColor: "#424c5a" }}
+                      href="https://github.com/imYashGogia"
+                      role="button"
+                    >
+                      <i className="fa-brands fa-github fa-beat"></i>
+                    </a>
+                    <a
+                      className="btn mt-1 me-2 glow-eff"
                       style={{ backgroundColor: "#55acee" }}
                       href="https://twitter.com/imYashGogia"
                       role="button"
