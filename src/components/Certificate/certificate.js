@@ -1,5 +1,4 @@
 import React from "react";
-import "./stylesheet.css";
 import Mern from "../Assets/certificates/MERN.jpg";
 import css from "../Assets/certificates/css.jpg";
 import excel from "../Assets/certificates/Excel.jpg";

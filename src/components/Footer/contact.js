@@ -1,8 +1,7 @@
 import React, { useRef, useState } from "react";
 import Swal from "sweetalert2";
 import emailjs from "@emailjs/browser";
-import "./stylesheet.css";
-import LoadingSpinner from "./loadingSpninner";
+import LoadingSpinner from "../Loaders/loadingSpninner";
 
 function Contact() {
   const form = useRef();
@@ -51,13 +50,15 @@ function Contact() {
         <div className="bg-dark text-center text-white pt-3">
           <div className="container pt-5">
             <section className="mb-4">
-              <h3 data-aos="fade-up">
+              <h3
+              // data-aos="fade-up"
+              >
                 Let's <span className="text-danger"> Connect & work</span>{" "}
                 together...
               </h3>
               <p
                 className="text-center border-bottom border-danger fst-italic"
-                data-aos="fade-up"
+                // data-aos="fade-up"
               >
                 {" "}
                 <span className="text-danger">&#60; </span>How do you take your
@@ -73,7 +74,7 @@ function Contact() {
                       <div className="col-md">
                         <div
                           className="form-floating mb-3"
-                          data-aos="fade-right"
+                          // data-aos="fade-right"
                         >
                           <input
                             type="name"
@@ -91,7 +92,10 @@ function Contact() {
                           </label>
                         </div>
                       </div>
-                      <div className="form-floating mb-3" data-aos="fade-right">
+                      <div
+                        className="form-floating mb-3"
+                        // data-aos="fade-right"
+                      >
                         <input
                           type="email"
                           className="form-control"
@@ -107,7 +111,10 @@ function Contact() {
                           Email address
                         </label>
                       </div>
-                      <div className="form-floating" data-aos="fade-right">
+                      <div
+                        className="form-floating"
+                        // data-aos="fade-right"
+                      >
                         <textarea
                           type="message"
                           className="form-control"
@@ -136,7 +143,7 @@ function Contact() {
                             type="Submit"
                             value="Send"
                             id="liveAlertBtn"
-                            data-aos="fade-right"
+                            // data-aos="fade-right"
                           >
                             Send Message
                           </button>
@@ -146,7 +153,9 @@ function Contact() {
                   </form>
                 </div>
                 <div className="right-sec col-md my-auto">
-                  <div data-aos="fade-up">
+                  <div
+                  //  data-aos="fade-up"
+                  >
                     {/* <a
                       className="btn mt-1 me-2"
                       style={{ backgroundColor: "#FBBC05" }}

@@ -1,9 +1,6 @@
 import React from "react";
 import Typewriter from "typewriter-effect";
-import "./stylesheet.css";
-function LandingPage(props) {
-  const { name } = props;
-
+function LandingPage() {
   return (
     <div id="Home">
       <div id="intro-example" className="p-4 text-center bg-image bg-class">
@@ -15,7 +12,7 @@ function LandingPage(props) {
                 <code className="text-danger">/&gt; </code>
               </h1>
               <h2 className="mb-4">
-                I am <span className="text-success">{name}</span>
+                I am <span className="text-success">Yash Gogia</span>
               </h2>
               <div className="d-flex justify-content-center">
                 <h3>And I do</h3>

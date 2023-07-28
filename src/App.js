@@ -1,19 +1,22 @@
 import "./App.css";
-import Navbar from "./components/Navbar";
-import LandingPage from "./components/landingPage";
-import AboutMe from "./components/aboutMe";
-import Technologystack from "./components/technologystack";
-import Certificate from "./components/certificate";
-import Projects from "./components/projectSection";
-import Contact from "./components/contact";
-import RecommendationSection from "./components/recommendationSection";
+import Navbar from "./components/Header/Navbar";
+import LandingPage from "./components/LandingPage/landingPage";
+import AboutMe from "./components/About/aboutMe";
+import Technologystack from "./components/Skills/technologystack";
+import Certificate from "./components/Certificate/certificate";
+import Contact from "./components/Footer/contact";
+import Projects from "./components/Projects/projectSection";
+import AllProjects from "./components/Projects/allProjects";
+import RecommendationSection from "./components/Recommendation/recommendationSection";
+import AllRecommendation from "./components/Recommendation/allRecommendation";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
+import { Provider } from "./components/ContextAPI/context";
 
 function App() {
-  // Create a parent component to wrap all the components
+  //Parent component to wrap all the components
   const AllComponents = () => (
     <>
-      <LandingPage name="Yash Gogia" />
+      <LandingPage />
       <AboutMe />
       <Technologystack />
       <Certificate />
@@ -23,13 +26,17 @@ function App() {
   );
 
   return (
-    <Router>
-      <Navbar />
-      <Routes>
-        <Route path="/" element={<AllComponents />} />
-      </Routes>
-      <Contact />
-    </Router>
+    <Provider>
+      <Router>
+        <Navbar />
+        <Routes>
+          <Route path="/" element={<AllComponents />} />
+          <Route path="/AllProjects" element={<AllProjects />} />
+          <Route path="/AllRecommendation" element={<AllRecommendation />} />
+        </Routes>
+        <Contact />
+      </Router>
+    </Provider>
   );
 }
 

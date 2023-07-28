@@ -1,5 +1,4 @@
 import React, { useEffect } from "react";
-import "./stylesheet.css";
 
 function Navbar() {
   useEffect(() => {
@@ -19,7 +18,7 @@ function Navbar() {
     <div>
       <nav className="navbar navbar-expand-lg navbar-light bg-light fixed-top text-dark">
         <div className="container-fluid">
-          <a className="navbar-brand" href="#Home">
+          <a className="navbar-brand" href="/">
             Yash's Portfolio
           </a>
           <button
@@ -38,18 +37,23 @@ function Navbar() {
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav">
-              <li className="nav-item">
+              {/* <li className="nav-item">
                 <a
                   className="nav-link text-dark js-scroll-trigger"
                   href="#About"
                 >
                   About
                 </a>
+              </li> */}
+              <li className="nav-item">
+                <a className="nav-link text-dark js-scroll-trigger" href="/">
+                  Home
+                </a>
               </li>
               <li className="nav-item">
                 <a
                   className="nav-link text-dark js-scroll-trigger"
-                  href="#Projects"
+                  href="/AllProjects"
                 >
                   Projects
                 </a>
@@ -58,7 +62,7 @@ function Navbar() {
                 <a
                   className="nav-link text-dark js-scroll-trigger"
                   aria-current="page"
-                  href="#Recommendations"
+                  href="/AllRecommendation"
                 >
                   Testimonials
                 </a>

@@ -1,13 +1,12 @@
 import React from "react";
-import "./stylesheet.css";
 
 function RecommendationCard(props) {
   const { message, name, projecturl } = props.recommendationprop;
   return (
-    <div className="col-12 col-md m-1 ">
+    <div className="col-12 col-md-4 mt-2 mx-auto ">
       <div className="card shadow h-100">
         <div className="card-body">
-          <h4 className="card-text">{name}</h4>
+          <h4 className="card-text text-center">{name}</h4>
           <p className="card-text text-secondary mb-0">
             <img
               src="https://static.thenounproject.com/png/453953-200.png"
@@ -21,7 +20,7 @@ function RecommendationCard(props) {
               className="apostrophe-icon-right"
             />
           </p>
-          <div className="text-center">
+          <div className="text-center pt-2">
             {/* Button modal */}
             <button
               type="button"
@@ -69,7 +68,6 @@ function RecommendationCard(props) {
                   >
                     {projecturl}
                   </pre>{" "}
-                  {/* Use <pre> to preserve formatting */}
                 </div>
                 <div className="modal-footer">
                   <button

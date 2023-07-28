@@ -1,5 +1,4 @@
 import React from "react";
-import "./stylesheet.css";
 
 function Technologycard(props) {
   const { name, imgurl } = props.skill;

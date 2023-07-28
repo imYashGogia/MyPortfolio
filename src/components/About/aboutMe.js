@@ -1,5 +1,4 @@
 import React from "react";
-import "./stylesheet.css";
 import AOS from "aos";
 import "aos/dist/aos.css";
 import profile from "../Assets/Backgrounds/Profile4.png";

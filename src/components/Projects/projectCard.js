@@ -12,7 +12,7 @@ function ProjectCard(props) {
       >
         <img
           src={img}
-          data-aos="zoom-in"
+          // data-aos="zoom-in"
           className="card-img-top img-thumbnail"
           alt="project-img"
         />
