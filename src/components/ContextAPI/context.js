@@ -97,7 +97,7 @@ export class Provider extends Component {
         Akshay Kumar (Assistant Professor)  
         Institute of Innovation in Technology and Management (IITM)`,
         test_img:
-          ".https://imyashgogia.github.io/Portfolio/Assets/mockups/iitmsign.jpg",
+          "https://imyashgogia.github.io/Portfolio/Assets/certificates/iitmsign.png",
       },
     ],
     skills: [

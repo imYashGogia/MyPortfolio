@@ -68,7 +68,9 @@ function RecommendationCard(props) {
                   >
                     {testimonial}
                   </pre>{" "}
-                  <img src={test_img} alt="sign" />
+                  <div className="ms-3">
+                    <img src={test_img} alt="sign" className="img-fluid w-25" />
+                  </div>
                 </div>
                 <div className="modal-footer">
                   <button
