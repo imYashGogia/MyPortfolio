@@ -1,7 +1,7 @@
 import React from "react";
 
 function RecommendationCard(props) {
-  const { message, name, projecturl } = props.recommendationprop;
+  const { message, name, testimonial, test_img } = props.recommendationprop;
   return (
     <div className="col-12 col-md-4 mt-2 mx-auto ">
       <div className="card shadow h-100">
@@ -66,8 +66,9 @@ function RecommendationCard(props) {
                       fontFamily: "Poppins, sans-serif",
                     }}
                   >
-                    {projecturl}
+                    {testimonial}
                   </pre>{" "}
+                  <img src={test_img} alt="sign" />
                 </div>
                 <div className="modal-footer">
                   <button

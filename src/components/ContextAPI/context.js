@@ -68,7 +68,7 @@ export class Provider extends Component {
         message:
           "I am writing this to express our deepest gratitude and appreciation for the outstanding work you did in creating our website.",
         name: "LAIPS College",
-        projecturl: `To Yash Gogia,
+        testimonial: `To Yash Gogia,
         I am writing this to express our deepest gratitude and appreciation for the outstanding work you did in creating our website. Your expertise and dedication have truly exceeded our expectations, and we couldn't be happier with the results.
         From the very beginning, you demonstrated a keen understanding of our vision for the website. Your ability to translate our ideas into a visually stunning and user-friendly design was remarkable. The modern and intuitive interface you crafted perfectly encapsulates our brand's identity, making it a pleasure for our visitors to explore our products and services.
         Throughout the development process, your professionalism and responsiveness were exceptional. You consistently kept us informed about the project's progress and eagerly incorporated our feedback, ensuring that the final product aligned perfectly with our vision.
@@ -84,21 +84,20 @@ export class Provider extends Component {
       },
       {
         id: 2,
-        message: `I had the pleasure of working with Yash Gogia on the "FIESTA 2K23" website project of our college, and I am thoroughly impressed.`,
-        name: "IITM College",
-        projecturl: `To Yash Gogia - Website Developer Student:
-        
-        I had the pleasure of working with Yash Gogia on the "FIESTA 2K23" website project of our college, and I am thoroughly impressed. As a college student myself, I understand the challenges that come with juggling academic responsibilities and extracurricular projects, but Yash managed to excel in both areas.
-        From the moment we started the "FIESTA 2K23" project, it was evident that he possessed a remarkable passion for web development. His enthusiasm was infectious, and it reflected in the quality of his work. They were receptive to our ideas and suggestions, and they even brought his own creative input, which significantly enhanced the overall design and functionality of the website.
-        What sets Yash apart is his dedication and determination to deliver a top-notch product. Despite the tight timeline, they consistently met deadlines and ensured that the "FIESTA 2K23" website was not only visually appealing but also user-friendly and responsive across various devices.
-        Communication with Yash was seamless throughout the project. They were always approachable and responded promptly to any queries we had. His professionalism and positive attitude made the collaboration a delightful experience.
-        I have no hesitation in recommending Yash Gogia for any web development projects. His talent and commitment are evident in his work, and I have no doubt they will continue to achieve great things in his future endeavours.
-        Thank you, Yash Gogia, for your outstanding services.
-        It was a pleasure working with you, and I wish you all the best in your academic and professional journey.
-  
-        Sincerely,
-        Akshay Kumar (Assistant Professor)
+        message: `Yash Gogia student of IINTM college has worked under me on the "FIESTA 2K23" website project for the college, and I must say, I am thoroughly impressed.`,
+        name: "IINTM College",
+        testimonial: `Yash Gogia student of IINTM college has worked under me on the "FIESTA 2K23" website project for the college, and I must say, I am thoroughly impressed. As a college student myself, I understand the challenges that come with juggling academic responsibilities and extracurricular projects, but he managed to excel in both areas.
+        He possesses a remarkable passion for web development, his enthusiasm was infectious which is reflected in his quality of work. He was receptive to my ideas and suggestions, and even brought his own creative input, which significantly enhanced the overall design and functionality of the website.
+
+        What sets him apart is his dedication and determination to deliver a top-notch product. Despite the tight timeline, he was able to consistently meet deadlines and ensured that the "FIESTA 2K23" website was not only visually appealing but also user-friendly and responsive across various devices.
+        Communication with him was seamless throughout the project. He was always approachable and responded promptly to any queries I had. His professionalism and positive attitude made the collaboration a delightful experience.
+        I have no hesitation in recommending Yash for any web development projects. His talent and commitment are evident in his work, and I have no doubt he will continue to achieve great things in his future endeavours.
+
+        Regards
+        Akshay Kumar (Assistant Professor)  
         Institute of Innovation in Technology and Management (IITM)`,
+        test_img:
+          ".https://imyashgogia.github.io/Portfolio/Assets/mockups/iitmsign.jpg",
       },
     ],
     skills: [
