@@ -79,8 +79,9 @@ export class Provider extends Component {
         
         Best regards,
         Pinki Singhania
-        Little Angel Institute of Law
-        Contact Information -  9910047197`,
+        Little Angel Institute of Law`,
+        test_img:
+          "http://laipscollege.in/static/media/logo.92f475ad8377a5c0e480.png",
       },
       {
         id: 2,
@@ -95,7 +96,7 @@ export class Provider extends Component {
 
         Regards
         Akshay Kumar (Assistant Professor)  
-        Institute of Innovation in Technology and Management (IITM)`,
+        Institute of Innovation in Technology and Management (IINTM)`,
         test_img:
           "https://imyashgogia.github.io/Portfolio/Assets/certificates/iitmsign.png",
       },
