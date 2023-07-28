@@ -81,7 +81,7 @@ export class Provider extends Component {
         Pinki Singhania
         Little Angel Institute of Law`,
         test_img:
-          "http://laipscollege.in/static/media/logo.92f475ad8377a5c0e480.png",
+          "https://imyashgogia.github.io/Portfolio/Assets/certificates/laips.png",
       },
       {
         id: 2,
