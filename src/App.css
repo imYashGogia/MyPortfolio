@@ -203,9 +203,10 @@ nav ul li:hover:after {
 .hover-zoom img:hover {
   scale: 1.05;
 }
-.btn-hover:hover {
+.hover-container:hover .btn-hover {
   transform: translateY(-8px);
 }
+
 .no-text-decor {
   text-decoration: none;
 }

@@ -48,7 +48,7 @@ function Technologystack() {
                 <span className="text-danger">&#47;&#62;</span>
               </p>
               <div className="row">
-                <div className="col-md-4 left-side my-auto">
+                <div className="col-md-4 left-side py-5">
                   <button
                     data-aos="flip-left"
                     className={`btn btn-outline-light m-2 glow-eff ${
@@ -86,10 +86,11 @@ function Technologystack() {
                   >
                     Software Development
                   </button>
+                  <br />
                   <button
                     data-aos="flip-left"
                     className={`btn btn-outline-light m-2 glow-eff ${
-                      activeCategory === "version" ? "active" : ""
+                      activeCategory === "tools" ? "active" : ""
                     }`}
                     onClick={() => handleButtonClick("tools")}
                   >

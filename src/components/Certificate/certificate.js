@@ -193,21 +193,19 @@ function Certificate() {
                 <img src={python} className="d-block w-50 mx-auto" alt="img" />
               </div>
               <div className="carousel-item">
-                <img
-                  src={presentation}
-                  className="d-block w-50 mx-auto"
-                  alt="img"
-                />
+                <img src={ML} className="d-block w-50 mx-auto" alt="img" />
+              </div>
+              <div className="carousel-item">
+                <img src={css} className="d-block w-50 mx-auto" alt="img" />
               </div>
               <div className="carousel-item">
                 <img src={Flutter} className="d-block w-50 mx-auto" alt="img" />
               </div>
               <div className="carousel-item">
-                <img
-                  src={barclays}
-                  className="d-block w-50 mx-auto"
-                  alt="img"
-                />
+                <img src={Rubicon} className="d-block w-50 mx-auto" alt="img" />
+              </div>
+              <div className="carousel-item">
+                <img src={excel} className="d-block w-50 mx-auto" alt="img" />
               </div>
             </div>
             <button

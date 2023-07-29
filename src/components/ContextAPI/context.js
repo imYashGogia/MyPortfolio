@@ -1,5 +1,14 @@
 import React, { Component } from "react";
-
+import gadgets from "../Assets/mockups/gadgets.png";
+import laips from "../Assets/mockups/laips2.png";
+import fiesta from "../Assets/mockups/fiesta.png";
+import techtonics from "../Assets/mockups/techtonics.png";
+import form from "../Assets/mockups/form.png";
+import landingpage from "../Assets/mockups/landingpage.png";
+import realestate from "../Assets/mockups/realestate.png";
+import tributepage from "../Assets/mockups/tributepage.png";
+import iitmsign from "../Assets/certificates/iitmsign.png";
+import laipslogo from "../Assets/certificates/laips.png";
 const Context = React.createContext();
 
 export class Provider extends Component {
@@ -9,56 +18,56 @@ export class Provider extends Component {
         id: 1,
         title: "E-commerce Website ",
         link: "/#",
-        img: "https://imyashgogia.github.io/Portfolio/Assets/mockups/gadgets.png",
+        img: gadgets,
         lang: "MERN Stack (Launching Soon)",
       },
       {
         id: 2,
         title: "College Website Project",
         link: "http://laipscollege.in/",
-        img: "https://imyashgogia.github.io/Portfolio/Assets/mockups/laips2.png",
+        img: laips,
         lang: "HTML, CSS, JS, REACT",
       },
       {
         id: 3,
         title: "College's Annual Fest Page",
         link: "https://iitmjp.ac.in/fiesta2k23/",
-        img: "https://imyashgogia.github.io/Portfolio/Assets/mockups/fiesta.png",
+        img: fiesta,
         lang: "HTML, CSS, JS",
       },
       {
         id: 4,
         title: "College's TECH Event Page",
         link: "https://imyashgogia.github.io/Techtonics/",
-        img: "https://imyashgogia.github.io/Portfolio/Assets/mockups/techtonics.png",
+        img: techtonics,
         lang: "HTML, CSS",
       },
       {
         id: 5,
         title: "Basic Survey Form ",
         link: "https://imyashgogia.github.io/Survey-Form/",
-        img: "https://imyashgogia.github.io/Portfolio/Assets/mockups/form.png",
+        img: form,
         lang: "HTML, CSS",
       },
       {
         id: 6,
         title: "Product Landing Page ",
         link: "https://imyashgogia.github.io/Product-Landing-Page/",
-        img: "https://imyashgogia.github.io/Portfolio/Assets/mockups/landingpage.png",
+        img: landingpage,
         lang: "HTML, CSS",
       },
       {
         id: 7,
         title: "Tribute page",
         link: "https://imyashgogia.github.io/Tribute-Page/",
-        img: "https://imyashgogia.github.io/Portfolio/Assets/mockups/tributepage.png",
+        img: tributepage,
         lang: "HTML, CSS",
       },
       {
         id: 8,
         title: " Real Estate Webpage",
         link: "https://imyashgogia.github.io/real-estate-landing-page/",
-        img: "https://imyashgogia.github.io/Portfolio/Assets/mockups/realestate.png",
+        img: realestate,
         lang: "HTML, CSS",
       },
     ],
@@ -80,8 +89,7 @@ export class Provider extends Component {
         Best regards,
         Pinki Singhania
         Little Angel Institute of Law`,
-        test_img:
-          "https://imyashgogia.github.io/Portfolio/Assets/certificates/laips.png",
+        test_img: laipslogo,
       },
       {
         id: 2,
@@ -97,8 +105,7 @@ export class Provider extends Component {
         Regards
         Akshay Kumar (Assistant Professor)  
         Institute of Innovation in Technology and Management (IINTM)`,
-        test_img:
-          "https://imyashgogia.github.io/Portfolio/Assets/certificates/iitmsign.png",
+        test_img: iitmsign,
       },
     ],
     skills: [
@@ -125,7 +132,7 @@ export class Provider extends Component {
       },
       {
         id: 4,
-        name: "BootStrap 5",
+        name: "BootStrap",
         category: "frontend",
         imgurl:
           "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png",
@@ -169,13 +176,6 @@ export class Provider extends Component {
         name: "Git",
         category: "tools",
         imgurl: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
-      },
-      {
-        id: 11,
-        name: "Responsive Layout",
-        category: "frontend",
-        imgurl:
-          "https://icon-library.com/images/icon-responsive/icon-responsive-9.jpg",
       },
       {
         id: 12,

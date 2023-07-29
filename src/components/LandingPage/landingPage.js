@@ -37,23 +37,30 @@ function LandingPage() {
                 </h3>
               </div>
               <br />
-              <a
-                className="btn btn-outline-light btn-sm m-2 bg-danger btn-hover glow-eff"
-                href="mailto:yashgogia2001@gmail.com"
-                role="button"
-                rel="noreferrer"
-              >
-                I want a Website
-              </a>
-              <a
-                className="btn btn-outline-light m-2 btn-hover btn-sm glow-eff"
-                target="_blank"
-                rel="noreferrer"
-                href="https://linkedin.com/in/imyashgogia"
-                role="button"
-              >
-                I want to Hire
-              </a>
+              <div className="d-flex justify-content-center">
+                <div className="hover-container">
+                  <a
+                    className="btn btn-outline-light btn-sm m-2 bg-danger glow-eff btn-hover"
+                    href="mailto:yashgogia2001@gmail.com"
+                    role="button"
+                    rel="noreferrer"
+                  >
+                    I want a Website
+                  </a>
+                </div>
+                <div className="hover-container">
+                  <a
+                    className="btn btn-outline-light m-2 btn-sm glow-eff btn-hover"
+                    target="_blank"
+                    rel="noreferrer"
+                    href="https://linkedin.com/in/imyashgogia"
+                    role="button"
+                  >
+                    I want to Hire
+                  </a>
+                </div>
+              </div>
+
               <section id="section05" className="demo text-center ">
                 <a href="#About" className="text-center ">
                   <span></span>Scroll
