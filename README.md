@@ -5,12 +5,13 @@ This repository contains my portfolio project, showcasing my skills, experience,
 <a href="https://imyashgogia.netlify.app/"> Click To View </a>
 
 <hr>
-<img src="https://github.com/imYashGogia/MyPortfolio/blob/main/Assets/Readme_img/img1.png">
-<img src="https://github.com/imYashGogia/MyPortfolio/blob/main/Assets/Readme_img/img2.png"> 
-<img src="https://github.com/imYashGogia/MyPortfolio/blob/main/Assets/Readme_img/img3.png"> 
-<img src="https://github.com/imYashGogia/MyPortfolio/blob/main/Assets/Readme_img/img4.png"> 
-<img src="https://github.com/imYashGogia/MyPortfolio/blob/main/Assets/Readme_img/img5.png"> 
-<img src="https://github.com/imYashGogia/MyPortfolio/blob/main/Assets/Readme_img/img6.png"> 
+<img src="https://github.com/imYashGogia/MyPortfolio/blob/main/src/components/Assets/Readme_img/img1.png">
+<img src="https://github.com/imYashGogia/MyPortfolio/blob/main/src/components/Assets/Readme_img/img2.png">
+<img src="https://github.com/imYashGogia/MyPortfolio/blob/main/src/components/Assets/Readme_img/img3.png">
+<img src="https://github.com/imYashGogia/MyPortfolio/blob/main/src/components/Assets/Readme_img/img4.png">
+<img src="https://github.com/imYashGogia/MyPortfolio/blob/main/src/components/Assets/Readme_img/img5.png">
+<img src="https://github.com/imYashGogia/MyPortfolio/blob/main/src/components/Assets/Readme_img/img6.png">
+
 <br>
 
 <h1>Table Of Content:</h1>
