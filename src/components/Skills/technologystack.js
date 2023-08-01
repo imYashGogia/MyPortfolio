@@ -48,7 +48,7 @@ function Technologystack() {
                 <span className="text-danger">&#47;&#62;</span>
               </p>
               <div className="row">
-                <div className="col-md-4 left-side py-5">
+                <div className="col-md-4 left-side my-auto">
                   <button
                     data-aos="flip-left"
                     className={`btn btn-outline-light m-2 glow-eff ${
