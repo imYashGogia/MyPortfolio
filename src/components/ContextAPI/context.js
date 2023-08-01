@@ -88,7 +88,7 @@ export class Provider extends Component {
         
         Best regards,
         Pinki Singhania
-        Little Angel Institute of Law`,
+        Little Angel Institute of Professional Studies`,
         test_img: laipslogo,
       },
       {
