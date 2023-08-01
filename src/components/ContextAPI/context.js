@@ -205,6 +205,20 @@ export class Provider extends Component {
         imgurl:
           "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png",
       },
+      {
+        id: 16,
+        name: "Figma",
+        category: "designing",
+        imgurl:
+          "https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&h=804&q=75&fit=max&auto=format",
+      },
+      {
+        id: 17,
+        name: "Canva",
+        category: "designing",
+        imgurl:
+          "https://cdn-images-1.medium.com/max/1200/1*A6kkoOVJVpXPWewg8axc5w.png",
+      },
     ],
   };
   render() {

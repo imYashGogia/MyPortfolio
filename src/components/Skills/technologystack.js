@@ -96,6 +96,15 @@ function Technologystack() {
                   >
                     Tools
                   </button>
+                  <button
+                    data-aos="flip-left"
+                    className={`btn btn-outline-light m-2 glow-eff ${
+                      activeCategory === "designing" ? "active" : ""
+                    }`}
+                    onClick={() => handleButtonClick("designing")}
+                  >
+                    UI/UX
+                  </button>
                 </div>
                 <div className="col-md-8 right-side">{finalSkillRow}</div>
               </div>
