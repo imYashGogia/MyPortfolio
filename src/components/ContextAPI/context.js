@@ -7,6 +7,7 @@ import form from "../Assets/mockups/form.png";
 import landingpage from "../Assets/mockups/landingpage.png";
 import realestate from "../Assets/mockups/realestate.png";
 import tributepage from "../Assets/mockups/tributepage.png";
+import passwordgenerator from "../Assets/mockups/password.png";
 import iitmsign from "../Assets/certificates/iitmsign.png";
 import laipslogo from "../Assets/certificates/laips.png";
 const Context = React.createContext();
@@ -17,7 +18,7 @@ export class Provider extends Component {
       {
         id: 1,
         title: "E-commerce Website ",
-        link: "/#",
+        link: "/ECOM-PROJECT",
         img: gadgets,
         lang: "MERN Stack (Launching Soon)",
       },
@@ -37,18 +38,19 @@ export class Provider extends Component {
       },
       {
         id: 4,
-        title: "College's TECH Event Page",
+        title: "Random Password Generator",
+        link: "https://imyashgogia.github.io/Random-Password-Generator/",
+        img: passwordgenerator,
+        lang: "HTML, CSS, JS",
+      },
+      {
+        id: 5,
+        title: "College's TECH Event Page ",
         link: "https://imyashgogia.github.io/Techtonics/",
         img: techtonics,
         lang: "HTML, CSS",
       },
-      {
-        id: 5,
-        title: "Basic Survey Form ",
-        link: "https://imyashgogia.github.io/Survey-Form/",
-        img: form,
-        lang: "HTML, CSS",
-      },
+
       {
         id: 6,
         title: "Product Landing Page ",
@@ -68,6 +70,13 @@ export class Provider extends Component {
         title: " Real Estate Webpage",
         link: "https://imyashgogia.github.io/real-estate-landing-page/",
         img: realestate,
+        lang: "HTML, CSS",
+      },
+      {
+        id: 9,
+        title: "Basic Survey Form ",
+        link: "https://imyashgogia.github.io/Survey-Form/",
+        img: form,
         lang: "HTML, CSS",
       },
     ],

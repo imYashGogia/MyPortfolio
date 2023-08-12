@@ -9,6 +9,7 @@ import Projects from "./components/Projects/projectSection";
 import AllProjects from "./components/Projects/allProjects";
 import RecommendationSection from "./components/Recommendation/recommendationSection";
 import AllRecommendation from "./components/Recommendation/allRecommendation";
+import NotFound from "./components/NotFound/notFound";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import { Provider } from "./components/ContextAPI/context";
 
@@ -33,6 +34,7 @@ function App() {
           <Route path="/" element={<AllComponents />} />
           <Route path="/AllProjects" element={<AllProjects />} />
           <Route path="/AllRecommendation" element={<AllRecommendation />} />
+          <Route path="*" element={<NotFound />} />
         </Routes>
         <Contact />
       </Router>
