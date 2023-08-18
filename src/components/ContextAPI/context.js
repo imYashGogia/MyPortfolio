@@ -9,6 +9,7 @@ import realestate from "../Assets/mockups/realestate.png";
 import tributepage from "../Assets/mockups/tributepage.png";
 import passwordgenerator from "../Assets/mockups/password.png";
 import calculator from "../Assets/mockups/calculator.png";
+import todo from "../Assets/mockups/todo.png";
 import iitmsign from "../Assets/certificates/iitmsign.png";
 import laipslogo from "../Assets/certificates/laips.png";
 const Context = React.createContext();
@@ -46,13 +47,20 @@ export class Provider extends Component {
       },
       {
         id: 5,
+        title: "To Do List",
+        link: "https://imyashgogia.github.io/TodoList/",
+        img: todo,
+        lang: "HTML, CSS, JS",
+      },
+      {
+        id: 6,
         title: "Basic Calculator",
         link: "https://imyashgogia.github.io/Calculator/",
         img: calculator,
         lang: "HTML, CSS, JS",
       },
       {
-        id: 6,
+        id: 7,
         title: "College's TECH Event Page ",
         link: "https://imyashgogia.github.io/Techtonics/",
         img: techtonics,
@@ -60,28 +68,28 @@ export class Provider extends Component {
       },
 
       {
-        id: 7,
+        id: 8,
         title: "Product Landing Page ",
         link: "https://imyashgogia.github.io/Product-Landing-Page/",
         img: landingpage,
         lang: "HTML, CSS",
       },
       {
-        id: 8,
+        id: 9,
         title: "Tribute page",
         link: "https://imyashgogia.github.io/Tribute-Page/",
         img: tributepage,
         lang: "HTML, CSS",
       },
       {
-        id: 9,
+        id: 10,
         title: " Real Estate Webpage",
         link: "https://imyashgogia.github.io/real-estate-landing-page/",
         img: realestate,
         lang: "HTML, CSS",
       },
       {
-        id: 10,
+        id: 11,
         title: "Basic Survey Form ",
         link: "https://imyashgogia.github.io/Survey-Form/",
         img: form,
