@@ -10,6 +10,7 @@ import tributepage from "../Assets/mockups/tributepage.png";
 import passwordgenerator from "../Assets/mockups/password.png";
 import calculator from "../Assets/mockups/calculator.png";
 import todo from "../Assets/mockups/todo.png";
+import tictactoe from "../Assets/mockups/tictactoe.png";
 import iitmsign from "../Assets/certificates/iitmsign.png";
 import laipslogo from "../Assets/certificates/laips.png";
 const Context = React.createContext();
@@ -40,27 +41,34 @@ export class Provider extends Component {
       },
       {
         id: 4,
+        title: "Tic-Tac-Toe Game",
+        link: "https://imyashgogia.github.io/Tic-Tac-Toe-Game/",
+        img: tictactoe,
+        lang: "HTML, CSS, JS",
+      },
+      {
+        id: 5,
         title: "Random Password Generator",
         link: "https://imyashgogia.github.io/Random-Password-Generator/",
         img: passwordgenerator,
         lang: "HTML, CSS, JS",
       },
       {
-        id: 5,
+        id: 6,
         title: "To Do List",
         link: "https://imyashgogia.github.io/TodoList/",
         img: todo,
         lang: "HTML, CSS, JS",
       },
       {
-        id: 6,
+        id: 7,
         title: "Basic Calculator",
         link: "https://imyashgogia.github.io/Calculator/",
         img: calculator,
         lang: "HTML, CSS, JS",
       },
       {
-        id: 7,
+        id: 8,
         title: "College's TECH Event Page ",
         link: "https://imyashgogia.github.io/Techtonics/",
         img: techtonics,
@@ -68,28 +76,28 @@ export class Provider extends Component {
       },
 
       {
-        id: 8,
+        id: 9,
         title: "Product Landing Page ",
         link: "https://imyashgogia.github.io/Product-Landing-Page/",
         img: landingpage,
         lang: "HTML, CSS",
       },
       {
-        id: 9,
+        id: 10,
         title: "Tribute page",
         link: "https://imyashgogia.github.io/Tribute-Page/",
         img: tributepage,
         lang: "HTML, CSS",
       },
       {
-        id: 10,
+        id: 11,
         title: " Real Estate Webpage",
         link: "https://imyashgogia.github.io/real-estate-landing-page/",
         img: realestate,
         lang: "HTML, CSS",
       },
       {
-        id: 11,
+        id: 12,
         title: "Basic Survey Form ",
         link: "https://imyashgogia.github.io/Survey-Form/",
         img: form,
