@@ -37,16 +37,8 @@ function Navbar() {
             id="navbarSupportedContent"
           >
             <ul className="navbar-nav">
-              {/* <li className="nav-item">
-                <a
-                  className="nav-link text-dark js-scroll-trigger"
-                  href="#About"
-                >
-                  About
-                </a>
-              </li> */}
               <li className="nav-item">
-                <a className="nav-link text-dark js-scroll-trigger" href="/">
+                <a className="nav-link text-dark js-scroll-trigger  " href="/">
                   Home
                 </a>
               </li>
