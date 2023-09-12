@@ -193,13 +193,6 @@ export class Provider extends Component {
           "https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png",
       },
       {
-        id: 7,
-        name: "Python",
-        // category: "backend",
-        category: "software",
-        imgurl: "https://img.freepik.com/free-icon/snakes_318-368381.jpg",
-      },
-      {
         id: 8,
         name: "C",
         category: "software",
