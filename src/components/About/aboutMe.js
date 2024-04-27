@@ -1,7 +1,7 @@
 import React from "react";
 import AOS from "aos";
 import "aos/dist/aos.css";
-import profile from "../Assets/Backgrounds/Profile4.png";
+import profile from "../Assets/Backgrounds/Profile5.jpeg";
 import Resume from "../Assets/Yash_Resume.pdf";
 
 function AboutMe() {
@@ -47,10 +47,11 @@ function AboutMe() {
                     </p>
                     <hr />
                     <p>
-                      Currently, I am actively seeking new opportunities and
-                      challenges in the field of web development. I am open to
-                      collaborating with innovative teams and working on
-                      exciting projects that allow me to apply my skills.
+                      Currently, I'm leveraging my expertise as a valuable
+                      member of the TCS (Tata Consultancy Services) team. I'm
+                      actively contributing my skills to various projects,
+                      seeking opportunities to collaborate with innovative
+                      teams, and tackling exciting challenges in the field.
                     </p>
                   </div>
                   <div className="col-md">

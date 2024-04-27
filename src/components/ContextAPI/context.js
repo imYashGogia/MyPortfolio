@@ -14,6 +14,24 @@ import tictactoe from "../Assets/mockups/tictactoe.png";
 import bubblegame from "../Assets/mockups/bubblegame.png";
 import iitmsign from "../Assets/certificates/iitmsign.png";
 import laipslogo from "../Assets/certificates/laips.png";
+import htmllogo from "../Assets/Logos/htmllogo.png";
+import csslogo from "../Assets/Logos/csslogo.png";
+import jslogo from "../Assets/Logos/javascriptlogo.png";
+import bootstraplogo from "../Assets/Logos/Bootstraplogo.png";
+import reactlogo from "../Assets/Logos/reactlogo.png";
+import nodejslogo from "../Assets/Logos/nodejslogo.png";
+import expressjslogo from "../Assets/Logos/expressjslogo.png";
+import javalogo from "../Assets/Logos/java.png";
+import pythonlogo from "../Assets/Logos/pythonlogo.png";
+import gitlogo from "../Assets/Logos/gitlogo.png";
+import sqllogo from "../Assets/Logos/sqllogo.png";
+import Oraclelogo from "../Assets/Logos/Oraclelogo.png";
+import vscodelogo from "../Assets/Logos/vscodelogo.png";
+import figmalogo from "../Assets/Logos/figmalogo.png";
+import canvalogo from "../Assets/Logos/canvalogo.png";
+import dockerlogo from "../Assets/Logos/dockerlogo.png";
+import jenkinslogo from "../Assets/Logos/jenkinslogo.png";
+
 const Context = React.createContext();
 
 export class Provider extends Component {
@@ -154,69 +172,67 @@ export class Provider extends Component {
         id: 1,
         name: "HTML5",
         category: "frontend",
-        imgurl:
-          "https://cdn3.iconfinder.com/data/icons/popular-services-brands/512/html5-512.png",
+        imgurl: htmllogo,
       },
       {
         id: 2,
         name: "CSS",
         category: "frontend",
-        imgurl:
-          "https://cdn.pixabay.com/photo/2017/08/05/11/16/logo-2582747_960_720.png",
+        imgurl: csslogo,
       },
       {
         id: 3,
-        name: "JS",
+        name: "JavaScript",
         category: "frontend",
-        imgurl:
-          "https://cdn.iconscout.com/icon/free/png-256/javascript-2752148-2284965.png",
+        imgurl: jslogo,
       },
       {
         id: 4,
         name: "BootStrap",
         category: "frontend",
-        imgurl:
-          "https://upload.wikimedia.org/wikipedia/commons/thumb/b/b2/Bootstrap_logo.svg/2560px-Bootstrap_logo.svg.png",
+        imgurl: bootstraplogo,
       },
       {
         id: 5,
         name: "React",
         category: "frontend",
-        imgurl:
-          "https://styles.redditmedia.com/t5_2su6s/styles/communityIcon_4g1uo0kd87c61.png",
+        imgurl: reactlogo,
       },
       {
         id: 6,
         name: "NodeJS",
         category: "backend",
-        imgurl:
-          "https://cdn0.iconfinder.com/data/icons/designer-skills/128/node-js-512.png",
+        imgurl: nodejslogo,
+      },
+      {
+        id: 7,
+        name: "ExpressJS",
+        category: "backend",
+        imgurl: expressjslogo,
       },
       {
         id: 8,
-        name: "C",
+        name: "JAVA",
         category: "software",
-        imgurl:
-          "https://upload.wikimedia.org/wikipedia/commons/1/19/C_Logo.png",
+        imgurl: javalogo,
       },
       {
         id: 9,
-        name: "C++",
+        name: "Python",
         category: "software",
-        imgurl: "https://www.freeiconspng.com/uploads/c--logo-icon-0.png",
+        imgurl: pythonlogo,
       },
       {
         id: 10,
         name: "Git",
         category: "tools",
-        imgurl: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
+        imgurl: gitlogo,
       },
       {
-        id: 12,
+        id: 11,
         name: "MYSQL",
         category: "backend",
-        imgurl:
-          "https://www.freepnglogos.com/uploads/logo-mysql-png/logo-mysql-mysql-logo-png-images-are-download-crazypng-21.png",
+        imgurl: sqllogo,
       },
       {
         id: 13,
@@ -229,29 +245,37 @@ export class Provider extends Component {
         id: 14,
         name: "Oracle",
         category: "backend",
-        imgurl:
-          "https://1000logos.net/wp-content/uploads/2021/04/Oracle-logo.png",
+        imgurl: Oraclelogo,
       },
       {
         id: 15,
-        name: "VS Code",
+        name: "Docker",
         category: "tools",
-        imgurl:
-          "https://cdn.icon-icons.com/icons2/2107/PNG/512/file_type_vscode_icon_130084.png",
+        imgurl: dockerlogo,
       },
       {
         id: 16,
-        name: "Figma",
-        category: "designing",
-        imgurl:
-          "https://cdn.sanity.io/images/599r6htc/localized/46a76c802176eb17b04e12108de7e7e0f3736dc6-1024x1024.png?w=804&h=804&q=75&fit=max&auto=format",
+        name: "Jenkins",
+        category: "tools",
+        imgurl: jenkinslogo,
       },
       {
         id: 17,
+        name: "VS Code",
+        category: "tools",
+        imgurl: vscodelogo,
+      },
+      {
+        id: 18,
+        name: "Figma",
+        category: "designing",
+        imgurl: figmalogo,
+      },
+      {
+        id: 19,
         name: "Canva",
         category: "designing",
-        imgurl:
-          "https://cdn-images-1.medium.com/max/1200/1*A6kkoOVJVpXPWewg8axc5w.png",
+        imgurl: canvalogo,
       },
     ],
   };

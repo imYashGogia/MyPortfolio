@@ -75,7 +75,7 @@ function Technologystack() {
                     }`}
                     onClick={() => handleButtonClick("backend")}
                   >
-                    Backend
+                    Backend & Database
                   </button>
                   <button
                     data-aos="flip-left"

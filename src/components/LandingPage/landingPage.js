@@ -20,9 +20,9 @@ function LandingPage() {
                   <Typewriter
                     onInit={(typewriter) => {
                       typewriter
-                        .typeString("Freelancing")
-                        .pauseFor(1000)
-                        .deleteAll()
+                        // .typeString("Freelancing")
+                        // .pauseFor(1000)
+                        // .deleteAll()
                         .typeString("Software Development")
                         .pauseFor(1000)
                         .deleteAll()
