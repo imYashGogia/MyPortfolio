@@ -62,10 +62,13 @@ function AboutMe() {
                     </p>
                     <hr />
                     <p>
-                      I can build complete web applications with backend API
-                      systems, focusing on the MERN stack. I excel in code
-                      optimization to enhance performance and enjoy transforming
-                      ideas into functional browser-based projects.
+                      I specialize in building complete web applications with a
+                      strong focus on frontend development, particularly using
+                      the MERN stack. Currently, I’m enhancing my skills in
+                      backend technologies, including Python, Pandas,
+                      Databricks, and SQL. I excel in code optimization to
+                      enhance performance and enjoy transforming ideas into
+                      functional, data-driven projects.
                     </p>
                   </div>
                 </div>
@@ -81,7 +84,7 @@ function AboutMe() {
                     <p>
                       As a developer, I believe in the power of continuous
                       learning and staying updated with the latest advancements
-                      in the web development industry.
+                      across the tech industry.
                     </p>
                   </div>
                   <div className="col-md mt-5">

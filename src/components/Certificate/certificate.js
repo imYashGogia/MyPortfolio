@@ -5,19 +5,50 @@ import excel from "../Assets/certificates/Excel.jpg";
 import Flutter from "../Assets/certificates/flutter.jpg";
 import barclays from "../Assets/certificates/IITM-Barclays.png";
 import Rubicon from "../Assets/certificates/IITM-Rubicon.jpg";
-import ML from "../Assets/certificates/ML.jpg";
+import Ml from "../Assets/certificates/ML.jpg";
 import powerpoint from "../Assets/certificates/Powerpoint.JPG";
 import presentation from "../Assets/certificates/Presentation.jpg";
 import python from "../Assets/certificates/python.jpg";
 import resweb from "../Assets/certificates/Responsive Web.png";
 import web from "../Assets/certificates/web.jpg";
+import pandas from "../Assets/certificates/Python-Pandas.jpg";
+import agile from "../Assets/certificates/AGILE.jpg";
+import sdlc from "../Assets/certificates/SDLC.jpg";
+
+const certificates = [
+  { src: Mern, alt: "MERN Stack" },
+  { src: web, alt: "Web Programming" },
+  { src: resweb, alt: "Responsive Web" },
+  { src: python, alt: "Python" },
+  { src: pandas, alt: "pandas" },
+  { src: Ml, alt: "Machine Learning" },
+  { src: agile, alt: "Agile" },
+  { src: sdlc, alt: "SDLC" },
+  { src: Rubicon, alt: "Rubicon" },
+  { src: barclays, alt: "Barclays" },
+  { src: powerpoint, alt: "PowerPoint" },
+  { src: presentation, alt: "Presentation" },
+  { src: css, alt: "CSS" },
+  { src: Flutter, alt: "Flutter" },
+  { src: excel, alt: "Excel" },
+];
 
 function Certificate() {
+  const chunkArray = (array, chunkSize) => {
+    const result = [];
+    for (let i = 0; i < array.length; i += chunkSize) {
+      result.push(array.slice(i, i + chunkSize));
+    }
+    return result;
+  };
+
+  const chunkedCertificates = chunkArray(certificates, 3);
+
   return (
     <div id="Certificate">
       <div className="p-4 text-center bg-image bg-dark text-white">
         <div className="container mt-5 pb-3">
-          <h1 className="text-center " data-aos="fade-up">
+          <h1 className="text-center" data-aos="fade-up">
             Here are some of My
             <span className="text-danger"> Certificates!</span>
           </h1>
@@ -25,12 +56,12 @@ function Certificate() {
             className="text-center border-bottom border-danger fst-italic"
             data-aos="fade-up"
           >
-            {" "}
             <span className="text-danger">&#60; </span>Just a{" "}
-            <span className="fw-bold"> philomath</span> & want to explore all
+            <span className="fw-bold">philomath</span> & want to explore all
             fields <span className="text-danger">&#47;&#62;</span>
           </p>
         </div>
+
         <div className="lg-screen">
           <div
             id="carouselExampleIndicators"
@@ -39,86 +70,24 @@ function Certificate() {
             data-aos="fade-up"
           >
             <div className="carousel-inner container">
-              <div className="carousel-item active ">
-                <div className="row">
-                  <div className="col size" style={{ width: "25rem" }}>
-                    <img
-                      src={Mern}
-                      className="card-img-top hover-zoom"
-                      alt="mern-stack"
-                    />
-                  </div>
-                  <div className="col size" style={{ width: "25rem" }}>
-                    <img
-                      src={web}
-                      className="card-img-top hover-zoom"
-                      alt="web prog"
-                    />
-                  </div>
-                  <div className="col size" style={{ width: "25rem" }}>
-                    <img
-                      src={Flutter}
-                      className="card-img-top hover-zoom"
-                      alt="flutter"
-                    />
+              {chunkedCertificates.map((chunk, index) => (
+                <div
+                  className={`carousel-item ${index === 0 ? "active" : ""}`}
+                  key={index}
+                >
+                  <div className="row">
+                    {chunk.map((cert, idx) => (
+                      <div className="col" style={{ width: "25rem" }} key={idx}>
+                        <img
+                          src={cert.src}
+                          className="card-img-top hover-zoom"
+                          alt={cert.alt}
+                        />
+                      </div>
+                    ))}
                   </div>
                 </div>
-              </div>
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col" style={{ width: "25rem" }}>
-                    <img src={css} className="card-img-top " alt="css" />
-                  </div>
-                  <div className="col" style={{ width: "25rem" }}>
-                    <img
-                      src={resweb}
-                      className="card-img-top"
-                      alt="freecodecamp"
-                    />
-                  </div>
-                  <div className="col" style={{ width: "25rem" }}>
-                    <img src={Rubicon} className="card-img-top" alt="rubicon" />
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col" style={{ width: "25rem" }}>
-                    <img src={ML} className="card-img-top " alt="ML" />
-                  </div>
-                  <div className="col" style={{ width: "25rem" }}>
-                    <img src={python} className="card-img-top" alt="python" />
-                  </div>
-                  <div className="col" style={{ width: "25rem" }}>
-                    <img
-                      src={barclays}
-                      className="card-img-top"
-                      alt="barclays"
-                    />
-                  </div>
-                </div>
-              </div>
-              <div className="carousel-item">
-                <div className="row">
-                  <div className="col" style={{ width: "25rem" }}>
-                    <img
-                      src={powerpoint}
-                      className="card-img-top "
-                      alt="powerpoint"
-                    />
-                  </div>
-                  <div className="col" style={{ width: "25rem" }}>
-                    <img
-                      src={presentation}
-                      className="card-img-top"
-                      alt="presentation"
-                    />
-                  </div>
-                  <div className="col" style={{ width: "25rem" }}>
-                    <img src={excel} className="card-img-top" alt="excel" />
-                  </div>
-                </div>
-              </div>
+              ))}
             </div>
             <button
               className="carousel-control-prev"
@@ -146,39 +115,25 @@ function Certificate() {
             </button>
           </div>
         </div>
+
         <div className="sm-screen">
           <div
             id="carouselExampleFade"
             className="carousel slide carousel-fade"
           >
             <div className="carousel-inner">
-              <div className="carousel-item active">
-                <img src={Mern} className="d-block w-50 mx-auto" alt="img" />
-              </div>
-              <div className="carousel-item">
-                <img src={resweb} className="d-block w-50 mx-auto" alt="img" />
-              </div>
-              <div className="carousel-item">
-                <img src={web} className="d-block w-50 mx-auto" alt="img" />
-              </div>
-              <div className="carousel-item">
-                <img src={python} className="d-block w-50 mx-auto" alt="img" />
-              </div>
-              <div className="carousel-item">
-                <img src={ML} className="d-block w-50 mx-auto" alt="img" />
-              </div>
-              <div className="carousel-item">
-                <img src={css} className="d-block w-50 mx-auto" alt="img" />
-              </div>
-              <div className="carousel-item">
-                <img src={Flutter} className="d-block w-50 mx-auto" alt="img" />
-              </div>
-              <div className="carousel-item">
-                <img src={Rubicon} className="d-block w-50 mx-auto" alt="img" />
-              </div>
-              <div className="carousel-item">
-                <img src={excel} className="d-block w-50 mx-auto" alt="img" />
-              </div>
+              {certificates.map((cert, index) => (
+                <div
+                  className={`carousel-item ${index === 0 ? "active" : ""}`}
+                  key={index}
+                >
+                  <img
+                    src={cert.src}
+                    className="d-block w-50 mx-auto"
+                    alt={cert.alt}
+                  />
+                </div>
+              ))}
             </div>
             <button
               className="carousel-control-prev"
@@ -204,7 +159,7 @@ function Certificate() {
               ></span>
               <span className="visually-hidden">Next</span>
             </button>
-          </div>{" "}
+          </div>
         </div>
       </div>
     </div>
