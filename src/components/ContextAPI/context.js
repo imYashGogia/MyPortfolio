@@ -47,7 +47,7 @@ export class Provider extends Component {
       {
         id: 2,
         title: "College Website Project",
-        link: "http://laipscollege.in/",
+        link: "https://imyashgogia.netlify.app/*",
         img: laips,
         lang: "HTML, CSS, JS, REACT",
       },
