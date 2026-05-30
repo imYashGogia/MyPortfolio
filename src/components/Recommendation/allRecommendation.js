@@ -15,10 +15,10 @@ function AllRecommendation() {
               {recommendationRow.slice(0, 3).map((recommendatiion) => (
                 <RecommendationCard
                   recommendationprop={recommendatiion}
-                  key={recommendatiion.id}
+                  key={recommendatiion.name}
                 />
               ))}
-            </div>
+            </div>,
           );
         }
         return (

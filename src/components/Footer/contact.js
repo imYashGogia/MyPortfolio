@@ -21,7 +21,7 @@ class Contact extends Component {
         "service_imyashgogia",
         "template_zvvvhp3",
         this.form.current,
-        "TyTw-jec9GEeMYmtI"
+        "TyTw-jec9GEeMYmtI",
       )
       .then(
         (result) => {
@@ -45,7 +45,7 @@ class Contact extends Component {
             icon: "error",
             confirmButtonText: "Retry Later!",
           });
-        }
+        },
       );
   };
 
@@ -64,14 +64,15 @@ class Contact extends Component {
                 </h3>
                 <p className="text-center border-bottom border-danger fst-italic">
                   {" "}
-                  &lt; How do you take your coffee? /&gt;
+                  &lt; Open to collaborations, opportunities, and meaningful
+                  conversations. /&gt;
                 </p>
                 <div className="container row">
                   <div className="form col-md left-sec">
-                    <h3 className="mb-4">
+                    {/* <h3 className="mb-4">
                       Let's Start a{" "}
                       <span className="text-danger">Project!</span>{" "}
-                    </h3>
+                    </h3> */}
                     <form ref={this.form} onSubmit={this.sendEmail} id="reset">
                       <div className="row g-2 mb-4">
                         <div className="col-md">
@@ -201,8 +202,11 @@ class Contact extends Component {
                     <div className="mt-5">
                       <p>Hope you have liked my projects and portfolio :)</p>
                       <p>
-                        If you have any questions, please feel free to drop me.
-                        I'll get back to you as soon as I can.
+                        Interested in working together or have an opportunity in
+                        mind? <br />
+                        <span className="text-warning">
+                          Feel free to reach out.
+                        </span>
                       </p>
                     </div>
                   </div>

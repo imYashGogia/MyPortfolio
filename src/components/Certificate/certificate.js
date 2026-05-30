@@ -14,23 +14,41 @@ import web from "../Assets/certificates/web.jpg";
 import pandas from "../Assets/certificates/Python-Pandas.jpg";
 import agile from "../Assets/certificates/AGILE.jpg";
 import sdlc from "../Assets/certificates/SDLC.jpg";
+import nightwatch from "../Assets/certificates/nightwatch.jpg";
+import tcs_cyber from "../Assets/certificates/tcs_cyber.png";
+import tcs_cyber2 from "../Assets/certificates/tcs_cyber2.png";
+import tcs_eng from "../Assets/certificates/tcs_eng.png";
+import tcs_python from "../Assets/certificates/tcs_python.png";
+import tcs_web from "../Assets/certificates/tcs_web.png";
 
 const certificates = [
-  { src: Mern, alt: "MERN Stack" },
-  { src: web, alt: "Web Programming" },
-  { src: resweb, alt: "Responsive Web" },
   { src: python, alt: "Python" },
   { src: pandas, alt: "pandas" },
+  { src: tcs_python, alt: "tcs_python" },
+
+  { src: Mern, alt: "MERN Stack" },
+  { src: resweb, alt: "Responsive Web" },
+  { src: tcs_web, alt: "tcs_web" },
+
   { src: Ml, alt: "Machine Learning" },
-  { src: agile, alt: "Agile" },
+  { src: web, alt: "Web Programming" },
+  { src: css, alt: "CSS" },
+
   { src: sdlc, alt: "SDLC" },
-  { src: Rubicon, alt: "Rubicon" },
-  { src: barclays, alt: "Barclays" },
+  { src: agile, alt: "Agile" },
+  { src: nightwatch, alt: "NIGHTWATCH" },
+
+  { src: Flutter, alt: "Flutter" },
+  { src: tcs_cyber, alt: "tcs_cyber" },
+  { src: tcs_cyber2, alt: "tcs_cyber2" },
+
+  { src: excel, alt: "Excel" },
   { src: powerpoint, alt: "PowerPoint" },
   { src: presentation, alt: "Presentation" },
-  { src: css, alt: "CSS" },
-  { src: Flutter, alt: "Flutter" },
-  { src: excel, alt: "Excel" },
+
+  { src: Rubicon, alt: "Rubicon" },
+  { src: barclays, alt: "Barclays" },
+  { src: tcs_eng, alt: "tcs_eng" },
 ];
 
 function Certificate() {
@@ -80,7 +98,7 @@ function Certificate() {
                       <div className="col" style={{ width: "25rem" }} key={idx}>
                         <img
                           src={cert.src}
-                          className="card-img-top hover-zoom"
+                          className="card-img-top hover-zoom certificate-size"
                           alt={cert.alt}
                         />
                       </div>

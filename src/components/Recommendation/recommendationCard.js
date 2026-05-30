@@ -35,7 +35,7 @@ function RecommendationCard(props) {
           {/* <!-- Modal --> */}
           <div
             className="modal fade"
-            id={`exampleModal-${props.recommendationprop.id}`}
+            id={`exampleModal-${props.recommendationprop.name}`}
             tabIndex="-1"
             aria-labelledby={`exampleModalLabel-${props.recommendationprop.id}`}
             aria-hidden="true"

@@ -39,70 +39,68 @@ function AboutMe() {
               <div className="container text-center ">
                 <div className="row">
                   <div className="col-md">
-                    <p className="text-center border-danger fst-italic">
+                    <h5 className="text-center border-danger fst-italic">
                       {" "}
                       <span className="text-danger">&#60; </span> What I am
                       Currently doing?{" "}
                       <span className="text-danger">&#47;&#62;</span>
-                    </p>
+                    </h5>
                     <hr />
                     <p>
-                      Currently, I'm leveraging my expertise as a valuable
-                      member of the TCS (Tata Consultancy Services) team. I'm
-                      actively contributing my skills to various projects,
-                      seeking opportunities to collaborate with innovative
-                      teams, and tackling exciting challenges in the field.
+                      I’m currently working as a{" "}
+                      <span className="text-warning">
+                        System Engineer at TCS (Tata Consultancy Services)
+                      </span>
+                      , contributing to enterprise projects focused on
+                      automation, ETL workflows, and data-driven solutions.{" "}
+                      <br />
+                      Actively exploring AI, Machine Learning, and Agentic AI to
+                      build intelligent, future-ready solutions.
                     </p>
                   </div>
                   <div className="col-md">
-                    <p className="text-center border-danger fst-italic">
+                    <h5 className="text-center border-danger fst-italic">
                       {" "}
                       <span className="text-danger">&#60; </span> What I can do?{" "}
                       <span className="text-danger">&#47;&#62;</span>
-                    </p>
+                    </h5>
                     <hr />
                     <p>
-                      I specialize in building complete web applications with a
-                      strong focus on frontend development, particularly using
-                      the MERN stack. Currently, I’m enhancing my skills in
-                      backend technologies, including Python, Pandas,
-                      Databricks, and SQL. I excel in code optimization to
-                      enhance performance and enjoy transforming ideas into
-                      functional, data-driven projects.
+                      I build scalable web applications, automation workflows,
+                      and data-driven solutions using technologies like MERN,
+                      Selenium, SQL, Python, Pandas, NumPy, and Databricks, with
+                      a focus on clean, efficient, and maintainable development.
                     </p>
                   </div>
                 </div>
                 <div className="row">
                   <div className="col-md mt-5">
-                    <p className="text-center border-danger fst-italic">
+                    <h5 className="text-center border-danger fst-italic">
                       {" "}
                       <span className="text-danger">&#60; </span>What do I
                       believe in?{" "}
                       <span className="text-danger">&#47;&#62;</span>
-                    </p>
+                    </h5>
                     <hr />
                     <p>
-                      As a developer, I believe in the power of continuous
-                      learning and staying updated with the latest advancements
-                      across the tech industry.
+                      I’m passionate about exploring modern technologies,
+                      especially in AI, Machine Learning, and intelligent
+                      automation, while constantly improving my problem-solving
+                      and development skills.
                     </p>
                   </div>
                   <div className="col-md mt-5">
-                    <p className="text-center border-danger fst-italic">
+                    <h5 className="text-center border-danger fst-italic">
                       {" "}
                       <span className="text-danger">&#60; </span>How can I help
                       you? <span className="text-danger">&#47;&#62;</span>
-                    </p>
+                    </h5>
                     <hr />
                     <p>
-                      I can be a valuable addition to your team as a proficient
-                      developer, contributing my skills. I can help bring your
-                      ideas to life and optimize code for better performance.
-                      {/* If you have a project that requires building
-                      a complete web application, I can take it from the
-                      conceptual stage to the final implementation. I can also
-                      collaborate with your existing team to enhance and
-                      optimize the performance of your web applications */}
+                      Whether it’s building applications, automating processes,
+                      developing ETL pipelines, optimizing existing systems, or
+                      adapting solutions for the AI-driven future, I aim to
+                      deliver scalable and impactful results.
                     </p>
                   </div>
                 </div>

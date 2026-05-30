@@ -22,7 +22,7 @@ function RecommendationSection() {
                 {recommendationsForHomeScreen.map((recommendation) => (
                   <RecommendationCard
                     recommendationprop={recommendation}
-                    key={recommendation.id}
+                    key={recommendation.name}
                   />
                 ))}
               </div>

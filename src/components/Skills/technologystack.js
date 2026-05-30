@@ -21,14 +21,14 @@ function Technologystack() {
 
         // Divide the filtered skills into rows of 4 for rendering
         const finalSkillRow = [];
-        for (let i = 0; i < filteredSkills.length / 4; i++) {
+        for (let i = 0; i < Math.ceil(filteredSkills.length / 4); i++) {
           let skillRow = filteredSkills.slice(i * 4, (i + 1) * 4);
           finalSkillRow.push(
             <div className="d-flex justify-content-around py-3" key={i}>
               {skillRow.map((skill) => (
-                <Technologycard skill={skill} key={skill.id} />
+                <Technologycard skill={skill} key={skill.name} />
               ))}
-            </div>
+            </div>,
           );
         }
 
@@ -80,11 +80,11 @@ function Technologystack() {
                   <button
                     data-aos="flip-left"
                     className={`btn btn-outline-light m-2 glow-eff ${
-                      activeCategory === "software" ? "active" : ""
+                      activeCategory === "data_eng" ? "active" : ""
                     }`}
-                    onClick={() => handleButtonClick("software")}
+                    onClick={() => handleButtonClick("data_eng")}
                   >
-                    Software Development
+                    Data Engineering & ETL
                   </button>
                   <br />
                   <button
@@ -99,14 +99,25 @@ function Technologystack() {
                   <button
                     data-aos="flip-left"
                     className={`btn btn-outline-light m-2 glow-eff ${
-                      activeCategory === "designing" ? "active" : ""
+                      activeCategory === "automation" ? "active" : ""
                     }`}
-                    onClick={() => handleButtonClick("designing")}
+                    onClick={() => handleButtonClick("automation")}
                   >
-                    UI/UX
+                    Automation & Testing
+                  </button>
+                  <button
+                    data-aos="flip-left"
+                    className={`btn btn-outline-light m-2 glow-eff ${
+                      activeCategory === "devops" ? "active" : ""
+                    }`}
+                    onClick={() => handleButtonClick("devops")}
+                  >
+                    DevOps & CI/CD
                   </button>
                 </div>
-                <div className="col-md-8 right-side">{finalSkillRow}</div>
+                <div className="col-md-8 right-side d-flex flex-column justify-content-center">
+                  {finalSkillRow}
+                </div>
               </div>
             </div>
           </div>

@@ -30,7 +30,7 @@ function AllProjects() {
                 </p>
                 <div className="row text-center">
                   {projects.map((project) => (
-                    <div className="col mt-4" key={project.id}>
+                    <div className="col mt-4" key={project.title}>
                       <ProjectCard
                         title={project.title}
                         link={project.link}
@@ -41,6 +41,16 @@ function AllProjects() {
                   ))}
                 </div>
               </div>
+              <p className="text-white mt-3">
+                <span className="text-danger">Note:</span> These projects were
+                built during my academic journey and showcase the technologies
+                and development practices that were relevant at the time.
+                <br />
+                <span className="text-warning">
+                  My technical expertise has continued to evolve with modern
+                  tools and industry trends.
+                </span>
+              </p>
             </div>
           </div>
         );

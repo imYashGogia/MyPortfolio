@@ -5,7 +5,7 @@ function Technologycard(props) {
 
   return (
     <div>
-      <img className="img-size" data-aos="flip-left" src={imgurl} alt={name} />
+      <img className="img-size " data-aos="flip-left" src={imgurl} alt={name} />
       <figcaption className="text-center">{name}</figcaption>
     </div>
   );

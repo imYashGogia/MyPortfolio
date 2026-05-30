@@ -12,25 +12,31 @@ function LandingPage() {
                 <code className="text-danger">/&gt; </code>
               </h1>
               <h2 className="mb-4">
-                I am <span className="text-success">Yash Gogia</span>
+                I am <span className="text-success fw-bold">Yash Gogia</span>
               </h2>
               <div className="d-flex justify-content-center">
                 <h3>And I do</h3>
-                <h3 id="word" className="text-success fw-bold ">
+                <h3 id="word" className="text-warning fw-bold ">
                   <Typewriter
                     onInit={(typewriter) => {
                       typewriter
-                        // .typeString("Freelancing")
-                        // .pauseFor(1000)
-                        // .deleteAll()
+                        .typeString("Automation")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("ETL Development")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("Data Engineering")
+                        .pauseFor(1000)
+                        .deleteAll()
+                        .typeString("Data-Driven Solutions")
+                        .pauseFor(1000)
+                        .deleteAll()
                         .typeString("Software Development")
                         .pauseFor(1000)
                         .deleteAll()
-                        .typeString("Front-end Development")
+                        .typeString("AI-Ready Solutions")
                         .pauseFor(1000)
-                        .start()
-                        .deleteAll()
-                        .typeString("Web Development")
                         .start();
                     }}
                   />
@@ -45,10 +51,10 @@ function LandingPage() {
                     role="button"
                     rel="noreferrer"
                   >
-                    I want a Website
+                    Let's Build Together
                   </a>
                 </div>
-                <div className="hover-container">
+                {/* <div className="hover-container">
                   <a
                     className="btn btn-outline-light m-2 btn-sm glow-eff btn-hover"
                     target="_blank"
@@ -58,7 +64,7 @@ function LandingPage() {
                   >
                     I want to Hire
                   </a>
-                </div>
+                </div> */}
               </div>
 
               <section id="section05" className="demo text-center ">
